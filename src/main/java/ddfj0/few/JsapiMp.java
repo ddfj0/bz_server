@@ -26,16 +26,16 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class JsapiMp {
     
-    private String mchId = "1670810409"; 
+    private String mchId = "your_mch_id"; 
 
     // 商户API证书序列号
-    private String mchSerialNo = "4DDEBB6F2753A254C5A11DFE6C770D89BF3D2F1F";
+    private String mchSerialNo = "your_mch_serial_no";
 
     // 商户私钥文件
     private String privateKeyPath;
 
     // APIv3密钥
-    private String apiV3Key = "wwwddfj0cn2018122520190130fjfjfj";
+    private String apiV3Key = "your_api_v3_key";
 
     
     // 接收支付结果通知地址
@@ -53,18 +53,18 @@ public class JsapiMp {
         service = null;
 
         WechatAppId app = new WechatAppId();
-        app.appid = "wx606192470a81b9c7";   /// 个体户小程序
-        app.secret = "efbb85b786e306abbc36c60d1db70093";
+        app.appid = "your_appid";   /// 个体户小程序
+        app.secret = "your_secret";
         m_appIdList.add(app);
 
         app = new WechatAppId();
-        app.appid = "wx82b943c4e3f6354a";  /// 测试小程序
-        app.secret = "ad3d60a0a083600230811f5134ca5445";
+        app.appid = "your_appid";  /// 测试小程序
+        app.secret = "your_secret";
         m_appIdList.add(app);        
 
         app = new WechatAppId();
-        app.appid = "wx95c349d43f1db2be";  /// 公众号
-        app.secret = "15bdda643e28b193ba039add46287b2a";
+        app.appid = "your_appid";  /// 公众号
+        app.secret = "your_secret";
         m_appIdList.add(app);        
         
     }

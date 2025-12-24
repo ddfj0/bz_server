@@ -21,19 +21,19 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class JsapiNative {
     
-    private String mchId = "1670810409"; 
+    private String mchId = "your_mch_id"; 
 
     // 商户API证书序列号
-    private String mchSerialNo = "4DDEBB6F2753A254C5A11DFE6C770D89BF3D2F1F";
+    private String mchSerialNo = "your_mch_serial_no";
 
     // 商户私钥文件
     private String privateKeyPath;
 
     // APIv3密钥
-    private String apiV3Key = "wwwddfj0cn2018122520190130fjfjfj";
+    private String apiV3Key = "your_api_v3_key";
 
     // APPID
-    private String appid = "wx95c349d43f1db2be";
+    private String appid = "your_appid";
     
     // 接收支付结果通知地址
     private String notifyUrl = "https://www.ddfj0.cn/bz/api/wepay/notify";
