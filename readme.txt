@@ -1,4 +1,11 @@
 
+# 八字排盘和罗盘软件后端
+
+![罗盘](Compass.png)
+![排盘](fate.png)
+
+[前端代码](https://github.com/ddfj0/bz_web.git)
+
 1、安装spring boot extension pack
 2、ctrl+shift+p create spring maven project
 3、spring version 2.54, java11, jar
@@ -29,3 +36,7 @@ sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY
 
 innodb_buffer_pool_size=16G
 innodb_buffer_pool_instances=4
+
+
+![罗盘](Compass.png)
+![排盘](fate.png)
